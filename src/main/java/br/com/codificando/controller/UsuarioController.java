@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import br.com.codificando.model.Usuario;
-import br.com.codificando.respository.UsuarioRepository;
+import br.com.codificando.repository.UsuarioRepository;
 
 @Controller
 public class UsuarioController {

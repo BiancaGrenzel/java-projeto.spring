@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #000023;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.icone {
+    position: absolute;
+}
+
+.wallpaper {
+    position: absolute;
+    height: 532px;
+    width: 100%;
+}
+
+.container-meio {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.icone2 {
+    position: absolute;
+    margin-left: -350px;
+    width: 473px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-left: 608px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #000023;
+    font-family: Qanelas Soft DEMO ExtraBold, Arial;
+    position: absolute;
+}
+
+p {
+    position: absolute;
+    margin-left: 608px;
+    margin-top: 190px;
+}
+
+.container-icones {
+    display: flex;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.container-index {
+    width: 1655px;
+    height: 289px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -180px;
+}
+
+#icon4 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 1419px;
+    top: 668px;
+    overflow: visible;
+}
+
+#icon3 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 978px;
+    top: 668px;
+    overflow: visible;
+}
+
+#icon2 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 547px;
+    top: 668px;
+    overflow: visible;
+}
+
+#icon1 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 97px;
+    top: 668px;
+    overflow: visible;
+}
+
+#Lorem_ipsum_quis_vitae_primis__y {
+    top: 890px;
+    position: absolute;
+    overflow: visible;
+    width: 334px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Lorem_ipsum_quis_vitae_primis__z {
+    left: 450px;
+    top: 890px;
+    position: absolute;
+    overflow: visible;
+    width: 334px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Lorem_ipsum_quis_vitae_primis__ {
+    left: 881px;
+    top: 890px;
+    position: absolute;
+    overflow: visible;
+    width: 334px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Lorem_ipsum_quis_vitae_primis__ba {
+    left: 1322px;
+    top: 890px;
+    position: absolute;
+    overflow: visible;
+    width: 334px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Facilidade {
+    left: 107px;
+    top: 833px;
+    position: absolute;
+    overflow: visible;
+    width: 118px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Autonomia {
+    left: 556px;
+    top: 833px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Design {
+    left: 1007px;
+    top: 833px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+#Seguranca {
+    left: 1429px;
+    top: 833px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Qanelas Soft DEMO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(87, 87, 87, 1);
+}
+
+@media (min-width:2100px) {
+    .opcoes-menu {
+        color: #575757;
+        padding-left: 100px;
+    }
+    .icone2 {
+        margin-top: -35px;
+        width: 550px;
+    }
+}
+
+@media (max-width:1400px) {
+    .container-meio {}
+    .icone2 {
+        width: 400px;
+    }
+    h1 {
+        margin-left: 508px;
+        margin-top: 50px;
+        font-size: 40px;
+        color: #000023;
+        font-family: Qanelas Soft DEMO ExtraBold, Arial;
+        position: absolute;
+    }
+    p {
+        position: absolute;
+        margin-left: 508px;
+        margin-top: 190px;
+    }
+}
+
+@media (max-width:1200px) {
+    .icone2 {
+        visibility: collapse;
+    }
+    .container-meio {
+        margin-top: 80px;
+    }
+    h1 {
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 40px;
+        color: #000023;
+        font-family: Qanelas Soft DEMO ExtraBold, Arial;
+        position: absolute;
+    }
+    p {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 190px;
+    }
+    #icon3 {
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 97px;
+        top: 1118px;
+        overflow: visible;
+    }
+    #Design {
+        left: 122px;
+        top: 1283px;
+        position: absolute;
+        overflow: visible;
+        width: 81px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Qanelas Soft DEMO;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        color: rgba(87, 87, 87, 1);
+    }
+    #Lorem_ipsum_quis_vitae_primis__z {
+        left: 0px;
+        top: 1340px;
+        position: absolute;
+        overflow: visible;
+        width: 334px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Qanelas Soft DEMO;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        color: rgba(87, 87, 87, 1);
+    }
+    #icon4 {
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 1419px;
+        top: 668px;
+        overflow: visible;
+    }
+    #Seguranca {
+        left: 1429px;
+        top: 833px;
+        position: absolute;
+        overflow: visible;
+        width: 119px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Qanelas Soft DEMO;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        color: rgba(87, 87, 87, 1);
+    }
+    #Lorem_ipsum_quis_vitae_primis__y {
+        top: 890px;
+        position: absolute;
+        overflow: visible;
+        width: 334px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Qanelas Soft DEMO;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        color: rgba(87, 87, 87, 1);
+    }
+    #Lorem_ipsum_quis_vitae_primis__ {
+        left: 441px;
+        top: 890px;
+        position: absolute;
+        overflow: visible;
+        width: 334px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Qanelas Soft DEMO;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        color: rgba(87, 87, 87, 1);
+    }
+}
