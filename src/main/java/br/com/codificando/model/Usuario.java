@@ -28,7 +28,7 @@ public class Usuario {
 	private String login;
 	
 	@NonNull
-	@Size(max=80)
+	@Size(max=150)
 	private String senha;
 	
 	@NonNull

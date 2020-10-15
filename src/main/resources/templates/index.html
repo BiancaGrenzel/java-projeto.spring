@@ -27,6 +27,11 @@
                 <a class="nav-item nav-link" th:href="@{/funcionario/list}">Funcionarios</a>
                 <a class="nav-item nav-link" th:href="@{/usuario/list}">Usuarios</a>
             </div>
+            <div th:if="${param.logout}" class="div-login">
+                <button class="btn btn-dark btn-login" th:onclick="window.location.href='@{/login}'">Login
+                <i class="fas fa-sign-in-alt"></i>
+            </button>
+            </div>
         </div>
     </nav>
 
